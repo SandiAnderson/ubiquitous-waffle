@@ -1,0 +1,66 @@
+a{
+    color: #F25732;
+    font-size: large;
+    font-family: Arial;
+    font-weight: bold;
+}
+a:hover{
+    cursor: pointer;
+}
+
+#backgrd {
+    background-image: url("../time-lapse-photography-of-people-walking-on-pedestrian-lane-842339.jpg ");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px #c6c8ca;
+    padding: 5px;
+    border-radius: 20px;
+    opacity: .3;
+}
+
+#menu{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    padding: 30px;
+
+}
+
+#viz{
+    position: absolute;
+    background-color: white;
+    opacity: .7;
+    height: 400px;
+    top: 10px;
+    left:160px;
+}
+#details{
+    position: absolute;
+    background-color: white;
+    opacity: .7;
+    height: 400px;
+    top: 10px;
+    width: 200px;
+    right:70px;
+}
+
+.line {
+    fill: none;
+    stroke: #F25732;
+    stroke-width: 1px;
+}
+
+.label{
+    font-size: small;
+}
+.circles{
+    fill: #F25732;
+}
+.circles:hover{
+    cursor: help;
+}
+.bar:hover{
+    cursor: help;
+}
